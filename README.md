@@ -1,6 +1,6 @@
 # Intro  
 AGF-PPIS is a novel framework for protein-protein interaction site prediction using multipy-head attention, deep graph convolution network and feed-forward neural network.   
-![AGF-PPIS_framework](https://github.com/fxh1001/blob/main/AGF-PPIS/IMG/AGF-PPIS.png)  
+![AGF-PPIS_framework](https://github.com/fxh1001/AGF-PPIS/blob/main/IMG/AGF-PPIS.png)  
 
 # System requirement  
 AGF-PPIS is developed under Linux environment with:  
