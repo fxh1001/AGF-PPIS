@@ -1,6 +1,6 @@
 # Intro  
 AGF-PPIS is a novel framework for protein-protein interaction site prediction using multipy-head attention, deep graph convolution network and feed-forward neural network.   
-![AGF-PPIS_framework](https://github.com/fxh1001/AGF-PPIS/IMG/AGF-PPIS.png)  
+![AGF-PPIS_framework](https://github.com/fxh1001/blob/main/AGF-PPIS/IMG/AGF-PPIS.png)  
 
 # System requirement  
 AGF-PPIS is developed under Linux environment with:  
@@ -20,7 +20,7 @@ You need to install the following three software and download the corresponding 
 2. Build Uniclust30 following [this guide](https://github.com/soedinglab/uniclust-pipeline).  
 3. Set path variables `UR90`, `HHDB`, `PSIBLAST`, `HHBLITS` and `DSSP` in `get_feature.py`.  
 
-# Run AFG-PPIS for prediction  
+# Run AGF-PPIS for prediction  
 For a protein chain in PDB:  
 ```
 $cd AGF-PPIS
