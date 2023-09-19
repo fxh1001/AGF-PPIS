@@ -12,7 +12,7 @@ PSIBLAST_DB = '/fxh/pred_ppis/database/nr_19_01_06/nr_v5'
 HHblits = '/fxh/pred_ppis/tool/hhsuite-3.0.3/bin/hhblits'
 HHblits_DB = '/fxh/pred_ppis/database/uniclust30_2018_08/uniclust30_2018_08'
 
-DSSP = '../AFG-PPIS/dssp'
+DSSP = '../AGF-PPIS/dssp'
 
 def SaveChainPDB(chain_id,query_path,filename,query_id):
 

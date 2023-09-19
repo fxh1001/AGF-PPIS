@@ -38,7 +38,7 @@ def predict(model,dataloader,query_path,query_id,filename):
         sequence = list(f.readlines()[1].strip())
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    model.load_state_dict(torch.load(f"../AFG-PPIS/model/best_model.pkl"))
+    model.load_state_dict(torch.load(f"../AGF-PPIS/model/best_model.pkl"))
     model.to(device)
     model.eval()
     pred = []
